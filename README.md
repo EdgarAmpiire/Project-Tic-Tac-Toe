@@ -1,4 +1,4 @@
-# Project-Tic-Tac-Toe# 🎮 Tic Tac Toe (Ruby CLI Game)
+🎮 Tic Tac Toe (Ruby CLI Game)
 
 This is a simple **two-player Tic Tac Toe game** built in Ruby, playable in the command line. It allows players to take turns, enter moves, and automatically checks for wins or draws.
 
@@ -35,9 +35,10 @@ gem install bundler
 This project uses **RSpec** for testing.
 
 1. **Install RSpec** (if not already installed):
-   ```bash
-   bundle add rspec
-   rspec --init
+```bash
+bundle add rspec
+rspec --init
+```
 
 2. Run the tests:
 
@@ -47,8 +48,8 @@ bundle exec rspec
 
 3. The tests cover:
 
-    - Player: ensures players are initialized correctly.
+- Player: ensures players are initialized correctly.
 
-    - Board: validates moves, detects wins (rows, columns, diagonals), and checks for full board.
+- Board: validates moves, detects wins (rows, columns, diagonals), and checks for full board.
 
-    - Game: tests game flow, player switching, and uses mocks/doubles to isolate logic.
+- Game: tests game flow, player switching, and uses mocks/doubles to isolate logic.
