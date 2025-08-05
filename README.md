@@ -1,4 +1,4 @@
-🎮 Tic Tac Toe (Ruby CLI Game)
+# 🎮 Tic Tac Toe (Ruby CLI Game)
 
 This is a simple **two-player Tic Tac Toe game** built in Ruby, playable in the command line. It allows players to take turns, enter moves, and automatically checks for wins or draws.
 
