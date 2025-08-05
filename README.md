@@ -29,3 +29,26 @@ gem install bundler
 ```bash
 ./bin/tic_tac_toe
 ```
+
+## 🧪 Running Tests
+
+This project uses **RSpec** for testing.
+
+1. **Install RSpec** (if not already installed):
+   ```bash
+   bundle add rspec
+   rspec --init
+
+2. Run the tests:
+
+```bash
+bundle exec rspec
+```
+
+3. The tests cover:
+
+    - Player: ensures players are initialized correctly.
+
+    - Board: validates moves, detects wins (rows, columns, diagonals), and checks for full board.
+
+    - Game: tests game flow, player switching, and uses mocks/doubles to isolate logic.
