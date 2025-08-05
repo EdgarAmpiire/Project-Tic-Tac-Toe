@@ -25,7 +25,7 @@ class Board
   end
 
   def full?
-    grid.none? { |cell| cell = '' }
+    grid.none? { |cell| cell == '' }
   end
 
   def winner?(marker)
